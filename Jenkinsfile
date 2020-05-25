@@ -15,7 +15,7 @@ pipeline {
         stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("cooldsachin/reactjs:${env.BUILD_ID}")
+                    myapp = docker.build("cooldsachin/react-ui:${env.BUILD_ID}")
                 }
             }
         }
