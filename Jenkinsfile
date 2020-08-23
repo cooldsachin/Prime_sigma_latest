@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'skilled-display-260316'
-        CLUSTER_NAME = 'mycluster123'
-        LOCATION = 'southamerica-east1-c'
-        CREDENTIALS_ID = 'skilled-display-260316'
+        PROJECT_ID = 'parabolic-rope-278721'
+        CLUSTER_NAME = 'my-cluster'
+        LOCATION = 'us-central1-c'
+        CREDENTIALS_ID = 'parabolic-rope-278721'
     }
     stages {
         stage("Checkout code") {
